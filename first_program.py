@@ -3,7 +3,7 @@ first_len = len(first_input)    # checking the length of the first string
 if (first_len%2 != 0):          # if length of the first string is odd or not
     middle_one = round((first_len/2))   # if it is odd print the middle one
 else:
-    middle_one = round(first_len/2) + 1         # if it is even it takes first middle one
+    middle_one = round(first_len/2) + 1         # if it is even it takes second middle one
 
 
 second_input = input()          # Taking the second String
@@ -11,7 +11,7 @@ sec_len = len(second_input)     # checking the length of the second string
 if(sec_len % 2 != 0):           # if length of the second string is odd or not
     s_middle_one = round((sec_len/2))   #if it is odd print the middle one
 else:
-    s_middle_one = round(sec_len/2) + 1     # if it is even it takes first middle one
+    s_middle_one = round(sec_len/2) + 1     # if it is even it takes second middle one
 
 
 # Concatinating all the characters
