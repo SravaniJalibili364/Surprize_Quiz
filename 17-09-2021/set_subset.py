@@ -14,10 +14,9 @@ subset_input = set(map(int,input().split(",")))
 len_super = len(super_set)
 len_sub   = len(subset_input)
 
-print(subset_input)
+
 super_set = list(super_set)
 subset_input = list(subset_input)
-print(subset_input)
 
 c = 0
 for i in super_set:
