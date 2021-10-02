@@ -1,16 +1,15 @@
 def words_input(words): 
-    word_set = {}
+    words_dict = {}
                       
-    for i in words:
-        if i not in word_set:
-            word_set[i] = 1
+    for word in words:
+        if word not in words_dict:
+            words_dict[word] = 1
         else:
-            word_set[i] += 1
+            words_dict[word] += 1
 
 
-    aa = sorted(word_set.values(),reverse=True)
-    for word in word_set:
-        print(word,word_set(aa))
+    for word,count in sorted(words_dict.items()):
+        print(word,count)
 
                      
 
