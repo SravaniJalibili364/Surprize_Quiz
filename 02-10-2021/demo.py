@@ -7,9 +7,14 @@ def words_input(words):
         else:
             words_dict[word] += 1
 
-
+    word_list = []
     for word,count in sorted(words_dict.items()):
-        print(word,count)
+        word_list.append((count,word))
+
+    word_list = sorted(word_list,reverse=True)
+
+    for word in word_list:
+        print("%s : %s" %(word[1],word[0]))
 
                      
 
