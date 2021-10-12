@@ -16,6 +16,9 @@ def words_input(words):
     for word in word_list:
         print("%s : %s" %(word[1],word[0]))
 
+
+        
+
                      
 
 file =open("input_file.txt",'r') 
